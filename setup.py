@@ -14,10 +14,12 @@ setup(
     maintainer='Agam More',
     maintainer_email='agam360@gmail.com',
     description='Live realtime server rendered HTML inspired by elixir LiveView.',
+    download_url = 'https://github.com/agamm/flask-uplink/archive/v_01.tar.gz', 
     long_description=readme,
     packages=find_packages(exclude=('tests',)),
     zip_safe=False,
     platforms='any',
+    keywords = ['Uplink', 'LiveView', 'WebSocket'],
     install_requires=[
         'Flask',
         'Flask-SocketIO'
